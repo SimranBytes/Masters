@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My App</title>
+    <title>Simran - Master's Student</title>
     <style>
       :root {
         --bg: #0f1724;
@@ -38,7 +38,8 @@
       header {
         display: flex;
         align-items: center;
-        gap: 16px
+        gap: 16px;
+        margin-bottom: 32px
       }
 
       .logo {
@@ -50,21 +51,82 @@
         align-items: center;
         justify-content: center;
         font-weight: 700;
-        color: #06202a
+        color: #06202a;
+        font-size: 24px
       }
 
       h1 {
         margin: 0;
-        font-size: 20px;
+        font-size: 32px;
         color: #06b6d4
+      }
+
+      .bio {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #e6eef6;
+        margin-bottom: 20px
+      }
+
+      .highlights {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-top: 20px
+      }
+
+      .highlight-card {
+        background: var(--glass);
+        border: 1px solid rgba(6, 182, 212, 0.2);
+        border-radius: 8px;
+        padding: 16px;
+        flex: 1;
+        min-width: 150px;
+        text-align: center
+      }
+
+      .highlight-card h3 {
+        color: var(--accent);
+        margin: 0 0 8px 0;
+        font-size: 14px;
+        text-transform: uppercase
+      }
+
+      .highlight-card p {
+        margin: 0;
+        font-size: 14px;
+        color: var(--muted)
       }
     </style>
   </head>
     <body>
         <div class="container">
         <header>
-            <h1>This is a sample html page</h1>
+            <div class="logo">S</div>
+            <div>
+                <h1>Simran</h1>
+                <p style="margin: 0; color: #9aa6b2; font-size: 14px;">Master's Student at TIET</p>
+            </div>
         </header>
+        
+        <div class="bio">
+            <p>Hi! I'm Simran, a Master's student at Thapar Institute of Engineering & Technology (TIET). I'm passionate about coding and exploring new technologies. I love building things and solving problems through code.</p>
+        </div>
+
+        <div class="highlights">
+            <div class="highlight-card">
+                <h3>Education</h3>
+                <p>Master's at TIET</p>
+            </div>
+            <div class="highlight-card">
+                <h3>Passion</h3>
+                <p>Coding & Development</p>
+            </div>
+            <div class="highlight-card">
+                <h3>Interest</h3>
+                <p>Technology & Innovation</p>
+            </div>
+        </div>
         </div>
     </body>
 </html>
