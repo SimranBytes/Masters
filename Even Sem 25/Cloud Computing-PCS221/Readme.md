@@ -27,7 +27,7 @@ Replicated `lab4-vm` from East Asia to Central India using ASR. Had to downgrade
 Stopped `lab4-vm`, took a full OS disk snapshot, created a new disk and VM from it (`lab6-vm`), and verified Apache + webpage were working identically at `http://20.2.141.94`. Zero data loss, simpler than ASR but requires downtime.
 
 ---
-Lab 7 — Hadoop MapReduce
+## Lab 7 — Hadoop MapReduce
 Implemented MapReduce jobs using two approaches for each question — manual Python (mapper → shuffle → reducer) and mrjob (Hadoop simulation). 
 
 
